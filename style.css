@@ -59,9 +59,9 @@ header {
 }
 
 .sign-up-form-section {
-    background-image: -webkit-cross-fade( url(http://www.darkcarnival.co.za/wp-content/uploads/2018/01/super-mario-ufo.png), url(DigitalOcean-Assets/img/sign-up-form-background.png), 80%);
+    background-image: url(DigitalOcean-Assets/img/sign-up-form-background.png);
     background-color: #004AFF;
     width: 100%;
     height: 500px;
-    object-fit: cover;
+    object-fit: contain;
 }
