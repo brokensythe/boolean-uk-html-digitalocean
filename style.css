@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: blueviolet;
+}
+
+header {
+    width: 100%;
+    height: 65px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    padding: 12px 250px 12px 125px;
+    justify-items: left;
+    align-items: center;
+}
+
+.digital-ocean-logo {
+    height: 30px;
+    object-fit: contain;
+}
+
+.header-navigation {
+    color: #1f3560;
+    font-family: 'Inter-Medium','Helvetica','san-serif';
+    font-weight: 600;
+}
+
+.header-navigation li {
+    display: inline;
+    margin-right: 7px;
+}
+
+.header-navigation-center {
+    justify-self: center;
+}
+
+.header-navigation-right {
+    justify-self: right;
+}
+
+.header-menu-down-chevron {
+    width: 25px;
+    transform: translateY(7px);
+}
+
+.sign-up-button {
+    color: #2882ff;
+    border: 2px solid #2882ff;
+    border-radius: 4px;
+    padding: 9px;
+
+}
