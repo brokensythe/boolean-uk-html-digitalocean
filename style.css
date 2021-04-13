@@ -10,15 +10,26 @@ body {
     background-color: blueviolet;
 }
 
+.row-wrapper {
+    max-width: 1245px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
 header {
-    width: 100%;
+    /* width: 100%; */
     height: 65px;
     background-color: #fff;
+}
+
+.header {
     display: grid;
     grid-template-columns: 1fr 2fr 2fr;
-    padding: 12px 250px 12px 125px;
     justify-items: left;
     align-items: center;
+    height: 100%;
 }
 
 .digital-ocean-logo {
@@ -58,15 +69,19 @@ header {
 
 }
 
-.sign-up-form-section {
+.sign-up-form-container {
     background-image: url(DigitalOcean-Assets/img/sign-up-form-background.png);
     background-color: #004AFF;
-    width: 100%;
     height: 500px;
-    padding: 55px 250px 55px 125px;
+    /* width: 100%; */
+}
+
+.sign-up-form-section {
     display: grid;
-    grid-template-columns: 650px 510px;
+    grid-template-columns: 650px 450px;
     font-family: 'Inter-Bold','Helvetica','san-serif';
+    gap: 35px;
+    height: 100%;
 }
 
 .sign-up-form-section article {
@@ -86,3 +101,21 @@ header {
     font-weight: 600;
     line-height: 140%;
 }
+
+.sign-up-form-section section {
+    width: 100%;
+    height: 100%;
+    max-height: 350px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    /* padding: 40px 18px 29px 18px; */
+}
+.sign-up-form-section section h3 {
+    font-size: 14px;
+}
+
