@@ -179,3 +179,35 @@ header {
 #sign-up-terms-and-conditions a {
     color: #4691ff;
 }
+
+.testimonial-section {
+    background-color: #ff5641;
+    height: 250px;
+    display: grid;
+    place-items: center;
+    gap: 14px;
+    font-family: 'Inter-Bold','Helvetica','san-serif';
+    background-color: #f3f5f9;
+}
+
+.testimonial-section h3 {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #77829d;
+}
+
+.logo-list {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+}
+
+.testimonial-section .logo {
+    height: 50px;
+}
+
+.testimonial-section p {
+    color: #2681fd;
+    font-weight: 600;
+}
+
